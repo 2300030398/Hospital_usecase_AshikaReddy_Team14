@@ -1,0 +1,101 @@
+appointment_id,kind,patient_id,patient_name,department,date,scheduled_time,doctor_id,doctor_name,room,original_doctor_id,original_time,delay_min,revision,status,risk_tier,news2,ml_risk_prob,care_flag,phone_masked
+APT-0069,ADVANCE,PAT-1039,Kavya Prasad,Pediatrics,2026-09-21,09:15,DOC-PED-03,Dr. Fatima Begum,OPD-P3,DOC-PED-03,09:15,0,0,CONFIRMED,High,8,0.45,Nurse pre-visit call + priority vitals check + senior review,+91 XXXXX XX146
+APT-0057,ADVANCE,PAT-1047,Mohan Devi,Cardiology,2026-09-21,09:30,DOC-CAR-01,Dr. Ramesh Naidu,OPD-C1,DOC-CAR-01,09:30,0,0,CONFIRMED,High,3,0.925,Nurse pre-visit call + priority vitals check + senior review,+91 XXXXX XX729
+APT-0031,ADVANCE,PAT-1063,Rekha Goud,Pediatrics,2026-09-21,09:30,DOC-PED-01,Dr. Swathi Chowdary,OPD-P1,DOC-PED-01,09:30,0,0,CONFIRMED,Low,0,0.201,Standard care pathway,+91 XXXXX XX855
+ER-001,EMERGENCY,PAT-1089,Jyothi Naidu,Cardiology,2026-09-21,10:15,DOC-CAR-01,Dr. Ramesh Naidu,OPD-C1,DOC-CAR-01,10:15,0,0,IN_TREATMENT,High,14,0.9,Nurse pre-visit call + priority vitals check + senior review,+91 XXXXX XX066
+ER-002,EMERGENCY,PAT-1091,Sirisha Iyer,Cardiology,2026-09-21,10:30,DOC-CAR-02,Dr. Sneha Reddy,OPD-C2,DOC-CAR-02,10:30,0,0,IN_TREATMENT,High,6,0.941,Nurse pre-visit call + priority vitals check + senior review,+91 XXXXX XX527
+APT-0003,ADVANCE,PAT-1004,Pooja Yadav,Cardiology,2026-09-21,10:30,DOC-CAR-03,Dr. Arun Kumar,OPD-C3,DOC-CAR-02,10:30,0,1,RECONFIRMED,Low,0,0.172,Standard care pathway,+91 XXXXX XX036
+APT-0008,ADVANCE,PAT-1003,Neha Iyer,Cardiology,2026-09-21,10:45,DOC-CAR-03,Dr. Arun Kumar,OPD-C3,DOC-CAR-01,10:45,0,1,RECONFIRMED,High,0,0.728,Nurse pre-visit call + priority vitals check + senior review,+91 XXXXX XX915
+APT-0047,ADVANCE,PAT-1026,Anusha Menon,Cardiology,2026-09-21,10:45,DOC-GEN-01,Dr. Anil Sharma,OPD-G1,DOC-CAR-02,10:45,0,1,RECONFIRMED,Low,0,0.329,Standard care pathway,+91 XXXXX XX870
+APT-0036,ADVANCE,PAT-1038,Lokesh Nair,Cardiology,2026-09-21,11:00,DOC-CAR-03,Dr. Arun Kumar,OPD-C3,DOC-CAR-01,11:00,0,1,RECONFIRMED,High,0,0.817,Nurse pre-visit call + priority vitals check + senior review,+91 XXXXX XX483
+ER-003,EMERGENCY,PAT-1090,Sai Singh,Neurology,2026-09-21,11:00,DOC-NEU-01,Dr. Lakshmi Prasad,OPD-N1,DOC-NEU-01,11:00,0,0,IN_TREATMENT,High,6,0.758,Nurse pre-visit call + priority vitals check + senior review,+91 XXXXX XX082
+APT-0060,ADVANCE,PAT-1078,Kavya Reddy,Neurology,2026-09-21,11:00,DOC-NEU-02,Dr. Vikram Rao,OPD-N2,DOC-NEU-01,11:00,0,1,RECONFIRMED,Low,0,0.214,Standard care pathway,+91 XXXXX XX290
+APT-0004,ADVANCE,PAT-1085,Ashok Babu,Neurology,2026-09-21,11:15,DOC-NEU-03,Dr. Meena Iyer,OPD-N3,DOC-NEU-01,11:15,0,1,RECONFIRMED,Medium,0,0.611,Reminder + wearable sync before visit,+91 XXXXX XX118
+APT-0012,ADVANCE,PAT-1084,Kiran Chowdary,General Medicine,2026-09-21,11:30,DOC-GEN-02,Dr. Padma Latha,OPD-G2,DOC-GEN-02,11:30,0,0,CONFIRMED,Low,0,0.222,Standard care pathway,+91 XXXXX XX429
+APT-0007,ADVANCE,PAT-1034,Swapna Shaik,Neurology,2026-09-21,11:30,DOC-NEU-02,Dr. Vikram Rao,OPD-N2,DOC-NEU-01,11:30,0,1,RECONFIRMED,Low,0,0.162,Standard care pathway,+91 XXXXX XX252
+APT-0043,ADVANCE,PAT-1075,Ayesha Yadav,Neurology,2026-09-21,12:00,DOC-NEU-01,Dr. Lakshmi Prasad,OPD-N1,DOC-NEU-01,12:00,0,0,CONFIRMED,Low,0,0.178,Standard care pathway,+91 XXXXX XX524
+APT-0056,ADVANCE,PAT-1013,Prathyusha Nair,General Medicine,2026-09-21,12:15,DOC-GEN-02,Dr. Padma Latha,OPD-G2,DOC-GEN-02,12:15,0,0,CONFIRMED,Low,0,0.117,Standard care pathway,+91 XXXXX XX156
+APT-0014,ADVANCE,PAT-1060,Rekha Khan,General Medicine,2026-09-21,12:45,DOC-GEN-01,Dr. Anil Sharma,OPD-G1,DOC-GEN-01,12:45,0,0,CONFIRMED,Low,0,0.329,Standard care pathway,+91 XXXXX XX807
+APT-0002,ADVANCE,PAT-1002,Chaitanya Menon,Neurology,2026-09-21,12:45,DOC-NEU-02,Dr. Vikram Rao,OPD-N2,DOC-NEU-02,12:45,0,0,CONFIRMED,Low,0,0.188,Standard care pathway,+91 XXXXX XX807
+APT-0032,ADVANCE,PAT-1014,Sai Rao,General Medicine,2026-09-21,14:00,DOC-GEN-03,Dr. Rohit Verma,OPD-G3,DOC-GEN-03,14:00,0,0,CONFIRMED,Low,1,0.285,Standard care pathway,+91 XXXXX XX689
+APT-0070,ADVANCE,PAT-1011,Padma Naidu,General Medicine,2026-09-21,14:30,DOC-GEN-02,Dr. Padma Latha,OPD-G2,DOC-GEN-02,14:30,0,0,CONFIRMED,Low,0,0.336,Standard care pathway,+91 XXXXX XX752
+APT-0068,ADVANCE,PAT-1007,Manoj Sastry,Orthopedics,2026-09-21,14:30,DOC-ORT-02,Dr. Kavitha Menon,OPD-O2,DOC-ORT-02,14:30,0,0,CONFIRMED,Medium,0,0.474,Reminder + wearable sync before visit,+91 XXXXX XX507
+ER-004,EMERGENCY,PAT-1092,Divya Chowdary,Pulmonology,2026-09-21,14:30,DOC-PUL-01,Dr. Venkat Rao,OPD-L1,DOC-PUL-01,14:30,0,0,IN_TREATMENT,High,14,0.96,Nurse pre-visit call + priority vitals check + senior review,+91 XXXXX XX109
+APT-0073,ADVANCE,PAT-1087,Harika Raju,Pulmonology,2026-09-21,14:30,DOC-PUL-03,Dr. Prakash Nair,OPD-L3,DOC-PUL-01,14:30,0,1,RECONFIRMED,High,1,0.682,Nurse pre-visit call + priority vitals check + senior review,+91 XXXXX XX663
+APT-0001,ADVANCE,PAT-1019,Ayesha Prasad,Neurology,2026-09-21,14:45,DOC-NEU-03,Dr. Meena Iyer,OPD-N3,DOC-NEU-03,14:45,0,0,CONFIRMED,Low,0,0.206,Standard care pathway,+91 XXXXX XX629
+APT-0045,ADVANCE,PAT-1027,Meghana Bhat,Pulmonology,2026-09-21,15:00,DOC-PUL-02,Dr. Anjali Singh,OPD-L2,DOC-PUL-02,15:00,0,0,CONFIRMED,Low,1,0.337,Standard care pathway,+91 XXXXX XX666
+APT-0071,ADVANCE,PAT-1032,Mounika Babu,General Medicine,2026-09-21,15:15,DOC-GEN-02,Dr. Padma Latha,OPD-G2,DOC-GEN-02,15:15,0,0,CONFIRMED,Low,0,0.104,Standard care pathway,+91 XXXXX XX166
+APT-0013,ADVANCE,PAT-1030,Neha Singh,Pulmonology,2026-09-21,15:15,DOC-PUL-03,Dr. Prakash Nair,OPD-L3,DOC-PUL-01,15:15,0,1,RECONFIRMED,Low,0,0.266,Standard care pathway,+91 XXXXX XX273
+APT-0009,ADVANCE,PAT-1072,Tarun Iyer,General Medicine,2026-09-21,16:15,DOC-GEN-03,Dr. Rohit Verma,OPD-G3,DOC-GEN-03,16:15,0,0,CONFIRMED,Low,1,0.227,Standard care pathway,+91 XXXXX XX495
+APT-0005,ADVANCE,PAT-1024,Tejaswi Goud,Cardiology,2026-09-21,16:30,DOC-CAR-01,Dr. Ramesh Naidu,OPD-C1,DOC-CAR-01,16:30,0,0,CONFIRMED,High,3,0.841,Nurse pre-visit call + priority vitals check + senior review,+91 XXXXX XX242
+APT-0015,ADVANCE,PAT-1012,Ajay Nair,Pulmonology,2026-09-21,16:30,DOC-PUL-02,Dr. Anjali Singh,OPD-L2,DOC-PUL-02,16:30,0,0,CONFIRMED,Low,0,0.386,Standard care pathway,+91 XXXXX XX475
+ER-005,EMERGENCY,PAT-1094,Lakshmi Pillai,Orthopedics,2026-09-22,09:45,DOC-ORT-01,Dr. Suresh Babu,OPD-O1,DOC-ORT-01,09:45,0,0,IN_TREATMENT,Medium,3,0.454,Reminder + wearable sync before visit,+91 XXXXX XX942
+APT-0067,ADVANCE,PAT-1010,Suresh Sharma,Orthopedics,2026-09-22,09:45,DOC-ORT-02,Dr. Kavitha Menon,OPD-O2,DOC-ORT-01,09:45,0,1,RECONFIRMED,Low,0,0.102,Standard care pathway,+91 XXXXX XX338
+APT-0019,ADVANCE,PAT-1051,Venkat Raju,Neurology,2026-09-22,10:00,DOC-NEU-01,Dr. Lakshmi Prasad,OPD-N1,DOC-NEU-01,10:00,0,0,CONFIRMED,High,0,0.829,Nurse pre-visit call + priority vitals check + senior review,+91 XXXXX XX989
+APT-0024,ADVANCE,PAT-1049,Sowmya Kumar,Orthopedics,2026-09-22,10:00,DOC-ORT-02,Dr. Kavitha Menon,OPD-O2,DOC-ORT-01,10:00,0,1,RECONFIRMED,Low,0,0.271,Standard care pathway,+91 XXXXX XX659
+ER-006,EMERGENCY,PAT-1095,Deepika Devi,General Medicine,2026-09-22,11:15,DOC-GEN-01,Dr. Anil Sharma,OPD-G1,DOC-GEN-01,11:15,0,0,IN_TREATMENT,High,6,0.61,Nurse pre-visit call + priority vitals check + senior review,+91 XXXXX XX719
+APT-0020,ADVANCE,PAT-1052,Ashok Prasad,General Medicine,2026-09-22,11:30,DOC-GEN-03,Dr. Rohit Verma,OPD-G3,DOC-GEN-01,11:30,0,1,RECONFIRMED,Low,0,0.354,Standard care pathway,+91 XXXXX XX030
+APT-0040,ADVANCE,PAT-1068,Vijaya Prasad,General Medicine,2026-09-22,11:45,DOC-GEN-02,Dr. Padma Latha,OPD-G2,DOC-GEN-01,11:45,0,1,RECONFIRMED,Medium,0,0.457,Reminder + wearable sync before visit,+91 XXXXX XX645
+APT-0010,ADVANCE,PAT-1041,Dinesh Nair,Pulmonology,2026-09-22,11:45,DOC-PUL-01,Dr. Venkat Rao,OPD-L1,DOC-PUL-01,11:45,0,0,CONFIRMED,Low,1,0.408,Standard care pathway,+91 XXXXX XX584
+APT-0053,ADVANCE,PAT-1006,Jyothi Singh,General Medicine,2026-09-22,12:30,DOC-GEN-02,Dr. Padma Latha,OPD-G2,DOC-GEN-02,12:30,0,0,CONFIRMED,Low,0,0.233,Standard care pathway,+91 XXXXX XX584
+APT-0033,ADVANCE,PAT-1058,Neha Goud,Pulmonology,2026-09-22,12:30,DOC-PUL-02,Dr. Anjali Singh,OPD-L2,DOC-PUL-02,12:30,0,0,CONFIRMED,Medium,0,0.559,Reminder + wearable sync before visit,+91 XXXXX XX208
+APT-0059,ADVANCE,PAT-1080,Sai Bhat,General Medicine,2026-09-22,12:45,DOC-GEN-01,Dr. Anil Sharma,OPD-G1,DOC-GEN-01,12:45,0,0,CONFIRMED,Low,0,0.321,Standard care pathway,+91 XXXXX XX736
+APT-0061,ADVANCE,PAT-1001,Rohan Iyer,Neurology,2026-09-22,14:15,DOC-NEU-02,Dr. Vikram Rao,OPD-N2,DOC-NEU-02,14:15,0,0,CONFIRMED,Medium,4,0.141,Reminder + wearable sync before visit,+91 XXXXX XX861
+APT-0042,ADVANCE,PAT-1074,Meghana Yadav,Orthopedics,2026-09-22,14:15,DOC-ORT-03,Dr. Imran Shaikh,OPD-O3,DOC-ORT-03,14:15,0,0,CONFIRMED,Medium,0,0.491,Reminder + wearable sync before visit,+91 XXXXX XX915
+APT-0075,ADVANCE,PAT-1088,Tarun Prasad,Pulmonology,2026-09-22,14:30,DOC-PUL-02,Dr. Anjali Singh,OPD-L2,DOC-PUL-02,14:30,0,0,CONFIRMED,Low,0,0.39,Standard care pathway,+91 XXXXX XX628
+ER-007,EMERGENCY,PAT-1093,Venkat Rao,Pediatrics,2026-09-22,15:00,DOC-PED-01,Dr. Swathi Chowdary,OPD-P1,DOC-PED-01,15:00,0,0,IN_TREATMENT,High,6,0.682,Nurse pre-visit call + priority vitals check + senior review,+91 XXXXX XX634
+APT-0051,ADVANCE,PAT-1059,Sunitha Singh,Pediatrics,2026-09-22,15:00,DOC-PED-02,Dr. Karthik Reddy,OPD-P2,DOC-PED-01,15:00,0,1,RECONFIRMED,Low,0,0.342,Standard care pathway,+91 XXXXX XX116
+APT-0048,ADVANCE,PAT-1057,Rohan Menon,Pediatrics,2026-09-22,15:15,DOC-PED-03,Dr. Fatima Begum,OPD-P3,DOC-PED-01,15:15,0,1,RECONFIRMED,Medium,4,0.484,Reminder + wearable sync before visit,+91 XXXXX XX670
+APT-0023,ADVANCE,PAT-1054,Ravi Goud,Pediatrics,2026-09-22,15:30,DOC-PED-02,Dr. Karthik Reddy,OPD-P2,DOC-PED-01,15:30,0,1,RECONFIRMED,Low,0,0.173,Standard care pathway,+91 XXXXX XX187
+APT-0034,ADVANCE,PAT-1042,Rohan Reddy,Pulmonology,2026-09-22,15:45,DOC-PUL-01,Dr. Venkat Rao,OPD-L1,DOC-PUL-01,15:45,0,0,CONFIRMED,Low,0,0.364,Standard care pathway,+91 XXXXX XX169
+APT-0006,ADVANCE,PAT-1086,Jyothi Raju,Pulmonology,2026-09-22,16:30,DOC-PUL-02,Dr. Anjali Singh,OPD-L2,DOC-PUL-02,16:30,0,0,CONFIRMED,Low,1,0.322,Standard care pathway,+91 XXXXX XX731
+APT-0062,ADVANCE,PAT-1053,Anil Babu,Cardiology,2026-09-23,09:15,DOC-CAR-01,Dr. Ramesh Naidu,OPD-C1,DOC-CAR-01,09:15,0,0,CONFIRMED,Medium,0,0.536,Reminder + wearable sync before visit,+91 XXXXX XX946
+APT-0079,ADVANCE,PAT-1025,Vamsi Sharma,Cardiology,2026-09-23,09:45,DOC-CAR-02,Dr. Sneha Reddy,OPD-C2,DOC-CAR-02,09:45,0,0,CONFIRMED,Medium,0,0.651,Reminder + wearable sync before visit,+91 XXXXX XX568
+APT-0041,ADVANCE,PAT-1061,Bhavani Devi,General Medicine,2026-09-23,10:30,DOC-GEN-03,Dr. Rohit Verma,OPD-G3,DOC-GEN-03,10:30,0,0,CONFIRMED,Low,0,0.201,Standard care pathway,+91 XXXXX XX236
+APT-0017,ADVANCE,PAT-1029,Prathyusha Menon,Neurology,2026-09-23,11:30,DOC-NEU-03,Dr. Meena Iyer,OPD-N3,DOC-NEU-03,11:30,0,0,CONFIRMED,Low,0,0.281,Standard care pathway,+91 XXXXX XX946
+ER-008,EMERGENCY,PAT-1096,Keerthi Yadav,Cardiology,2026-09-23,12:00,DOC-CAR-01,Dr. Ramesh Naidu,OPD-C1,DOC-CAR-01,12:00,0,0,IN_TREATMENT,High,16,0.543,Nurse pre-visit call + priority vitals check + senior review,+91 XXXXX XX811
+APT-0052,ADVANCE,PAT-1022,Ayesha Goud,Cardiology,2026-09-23,12:00,DOC-CAR-03,Dr. Arun Kumar,OPD-C3,DOC-CAR-01,12:00,0,1,RECONFIRMED,Low,0,0.414,Standard care pathway,+91 XXXXX XX603
+APT-0011,ADVANCE,PAT-1067,Tejaswi Babu,Pediatrics,2026-09-23,12:00,DOC-PED-02,Dr. Karthik Reddy,OPD-P2,DOC-PED-02,12:00,0,0,CONFIRMED,Low,0,0.13,Standard care pathway,+91 XXXXX XX083
+APT-0077,ADVANCE,PAT-1009,Divya Iyer,Cardiology,2026-09-23,12:15,DOC-CAR-02,Dr. Sneha Reddy,OPD-C2,DOC-CAR-01,12:15,0,1,RECONFIRMED,Medium,2,0.563,Reminder + wearable sync before visit,+91 XXXXX XX785
+APT-0021,ADVANCE,PAT-1069,Harsha Goud,Cardiology,2026-09-23,12:30,DOC-CAR-03,Dr. Arun Kumar,OPD-C3,DOC-CAR-01,12:30,0,1,RECONFIRMED,Low,1,0.24,Standard care pathway,+91 XXXXX XX001
+APT-0049,ADVANCE,PAT-1023,Ravi Pillai,General Medicine,2026-09-23,14:15,DOC-GEN-03,Dr. Rohit Verma,OPD-G3,DOC-GEN-03,14:15,0,0,CONFIRMED,Low,0,0.075,Standard care pathway,+91 XXXXX XX676
+APT-0050,ADVANCE,PAT-1036,Aruna Varma,Pulmonology,2026-09-23,14:15,DOC-PUL-02,Dr. Anjali Singh,OPD-L2,DOC-PUL-02,14:15,0,0,CONFIRMED,Medium,3,0.247,Reminder + wearable sync before visit,+91 XXXXX XX059
+APT-0080,ADVANCE,PAT-1070,Prasad Singh,Cardiology,2026-09-23,14:45,DOC-CAR-01,Dr. Ramesh Naidu,OPD-C1,DOC-CAR-01,14:45,0,0,CONFIRMED,Medium,0,0.449,Reminder + wearable sync before visit,+91 XXXXX XX752
+APT-0083,ADVANCE,PAT-1015,Vijaya Reddy,Neurology,2026-09-23,14:45,DOC-NEU-02,Dr. Vikram Rao,OPD-N2,DOC-NEU-02,14:45,0,0,CONFIRMED,Low,0,0.221,Standard care pathway,+91 XXXXX XX640
+ER-009,EMERGENCY,PAT-1097,Bhavani Sharma,Neurology,2026-09-23,15:15,DOC-NEU-01,Dr. Lakshmi Prasad,OPD-N1,DOC-NEU-01,15:15,0,0,IN_TREATMENT,Medium,4,0.658,Reminder + wearable sync before visit,+91 XXXXX XX155
+APT-0044,ADVANCE,PAT-1077,Harsha Pillai,Neurology,2026-09-23,15:15,DOC-NEU-02,Dr. Vikram Rao,OPD-N2,DOC-NEU-01,15:15,0,1,RECONFIRMED,Low,0,0.266,Standard care pathway,+91 XXXXX XX779
+APT-0030,ADVANCE,PAT-1083,Nagaraju Pillai,Neurology,2026-09-23,15:30,DOC-NEU-03,Dr. Meena Iyer,OPD-N3,DOC-NEU-01,15:30,0,1,RECONFIRMED,Medium,0,0.431,Reminder + wearable sync before visit,+91 XXXXX XX831
+APT-0055,ADVANCE,PAT-1062,Padma Goud,Pulmonology,2026-09-23,15:30,DOC-PUL-02,Dr. Anjali Singh,OPD-L2,DOC-PUL-02,15:30,0,0,CONFIRMED,Low,0,0.323,Standard care pathway,+91 XXXXX XX316
+APT-0065,ADVANCE,PAT-1021,Mounika Yadav,Neurology,2026-09-23,16:15,DOC-NEU-01,Dr. Lakshmi Prasad,OPD-N1,DOC-NEU-01,16:15,0,0,CONFIRMED,Low,0,0.264,Standard care pathway,+91 XXXXX XX270
+APT-0074,ADVANCE,PAT-1064,Gopal Bhat,Pediatrics,2026-09-23,16:15,DOC-PED-02,Dr. Karthik Reddy,OPD-P2,DOC-PED-02,16:15,0,0,CONFIRMED,Low,0,0.089,Standard care pathway,+91 XXXXX XX213
+APT-0026,ADVANCE,PAT-1048,Prasad Sastry,Pulmonology,2026-09-23,16:15,DOC-PUL-03,Dr. Prakash Nair,OPD-L3,DOC-PUL-03,16:15,0,0,CONFIRMED,Low,0,0.42,Standard care pathway,+91 XXXXX XX724
+APT-0028,ADVANCE,PAT-1017,Nagaraju Raju,General Medicine,2026-09-23,16:30,DOC-GEN-02,Dr. Padma Latha,OPD-G2,DOC-GEN-02,16:30,0,0,CONFIRMED,Low,0,0.142,Standard care pathway,+91 XXXXX XX103
+APT-0035,ADVANCE,PAT-1071,Anusha Naidu,Orthopedics,2026-09-24,09:00,DOC-ORT-01,Dr. Suresh Babu,OPD-O1,DOC-ORT-01,09:00,0,0,CONFIRMED,Medium,4,0.491,Reminder + wearable sync before visit,+91 XXXXX XX157
+APT-0087,ADVANCE,PAT-1044,Nirmala Rao,Cardiology,2026-09-24,09:45,DOC-CAR-03,Dr. Arun Kumar,OPD-C3,DOC-CAR-03,09:45,0,0,CONFIRMED,Medium,0,0.461,Reminder + wearable sync before visit,+91 XXXXX XX004
+ER-010,EMERGENCY,PAT-1099,Vamsi Naidu,Orthopedics,2026-09-24,10:00,DOC-ORT-01,Dr. Suresh Babu,OPD-O1,DOC-ORT-01,10:00,0,0,IN_TREATMENT,High,5,0.839,Nurse pre-visit call + priority vitals check + senior review,+91 XXXXX XX063
+APT-0046,ADVANCE,PAT-1043,Anitha Chowdary,Orthopedics,2026-09-24,10:00,DOC-ORT-02,Dr. Kavitha Menon,OPD-O2,DOC-ORT-01,10:00,0,1,RECONFIRMED,Low,0,0.089,Standard care pathway,+91 XXXXX XX765
+APT-0016,ADVANCE,PAT-1018,Bhaskar Chowdary,Orthopedics,2026-09-24,10:15,DOC-ORT-03,Dr. Imran Shaikh,OPD-O3,DOC-ORT-01,10:15,0,1,RECONFIRMED,Low,0,0.227,Standard care pathway,+91 XXXXX XX805
+APT-0085,ADVANCE,PAT-1076,Sai Goud,Pediatrics,2026-09-24,10:15,DOC-PED-03,Dr. Fatima Begum,OPD-P3,DOC-PED-03,10:15,0,0,CONFIRMED,Low,0,0.159,Standard care pathway,+91 XXXXX XX594
+APT-0029,ADVANCE,PAT-1045,Saritha Yadav,Orthopedics,2026-09-24,10:30,DOC-ORT-02,Dr. Kavitha Menon,OPD-O2,DOC-ORT-01,10:30,0,1,RECONFIRMED,Low,0,0.174,Standard care pathway,+91 XXXXX XX951
+APT-0027,ADVANCE,PAT-1055,Madhavi Singh,Pulmonology,2026-09-24,11:45,DOC-PUL-02,Dr. Anjali Singh,OPD-L2,DOC-PUL-02,11:45,0,0,CONFIRMED,Medium,0,0.421,Reminder + wearable sync before visit,+91 XXXXX XX654
+APT-0025,ADVANCE,PAT-1008,Mounika Goud,Neurology,2026-09-24,12:00,DOC-NEU-03,Dr. Meena Iyer,OPD-N3,DOC-NEU-03,12:00,0,0,CONFIRMED,Low,2,0.09,Standard care pathway,+91 XXXXX XX074
+APT-0018,ADVANCE,PAT-1050,Ramu Naidu,Cardiology,2026-09-24,12:30,DOC-CAR-02,Dr. Sneha Reddy,OPD-C2,DOC-CAR-02,12:30,0,0,CONFIRMED,Medium,0,0.603,Reminder + wearable sync before visit,+91 XXXXX XX299
+APT-0084,ADVANCE,PAT-1073,Naresh Shaik,Pulmonology,2026-09-24,12:30,DOC-PUL-02,Dr. Anjali Singh,OPD-L2,DOC-PUL-02,12:30,0,0,CONFIRMED,Low,0,0.337,Standard care pathway,+91 XXXXX XX563
+APT-0082,ADVANCE,PAT-1056,Anil Goud,General Medicine,2026-09-24,14:15,DOC-GEN-02,Dr. Padma Latha,OPD-G2,DOC-GEN-02,14:15,0,0,CONFIRMED,Low,0,0.257,Standard care pathway,+91 XXXXX XX198
+APT-0038,ADVANCE,PAT-1016,Sowmya Devi,Pulmonology,2026-09-24,15:00,DOC-PUL-01,Dr. Venkat Rao,OPD-L1,DOC-PUL-01,15:00,0,0,CONFIRMED,Medium,1,0.497,Reminder + wearable sync before visit,+91 XXXXX XX955
+APT-0078,ADVANCE,PAT-1066,Harika Pillai,General Medicine,2026-09-24,15:30,DOC-GEN-02,Dr. Padma Latha,OPD-G2,DOC-GEN-02,15:30,0,0,CONFIRMED,Low,0,0.219,Standard care pathway,+91 XXXXX XX106
+APT-0039,ADVANCE,PAT-1005,Sandeep Menon,Orthopedics,2026-09-24,15:30,DOC-ORT-02,Dr. Kavitha Menon,OPD-O2,DOC-ORT-02,15:30,0,0,CONFIRMED,Low,0,0.14,Standard care pathway,+91 XXXXX XX605
+APT-0064,ADVANCE,PAT-1035,Venkat Varma,Cardiology,2026-09-24,16:00,DOC-CAR-03,Dr. Arun Kumar,OPD-C3,DOC-CAR-03,16:00,0,0,CONFIRMED,Medium,2,0.485,Reminder + wearable sync before visit,+91 XXXXX XX333
+APT-0063,ADVANCE,PAT-1028,Harika Naidu,General Medicine,2026-09-24,16:15,DOC-GEN-03,Dr. Rohit Verma,OPD-G3,DOC-GEN-03,16:15,0,0,CONFIRMED,Medium,3,0.148,Reminder + wearable sync before visit,+91 XXXXX XX112
+APT-0058,ADVANCE,PAT-1065,Pavan Babu,Orthopedics,2026-09-24,16:15,DOC-ORT-03,Dr. Imran Shaikh,OPD-O3,DOC-ORT-03,16:15,0,0,CONFIRMED,Low,0,0.221,Standard care pathway,+91 XXXXX XX621
+ER-011,EMERGENCY,PAT-1098,Prathyusha Pillai,General Medicine,2026-09-24,21:30,DOC-GEN-01,Dr. Anil Sharma,OPD-G1,DOC-GEN-01,21:30,0,0,IN_TREATMENT,High,6,0.892,Nurse pre-visit call + priority vitals check + senior review,+91 XXXXX XX254
+ER-012,EMERGENCY,PAT-1100,Harika Murthy,Cardiology,2026-09-25,02:15,DOC-CAR-01,Dr. Ramesh Naidu,OPD-C1,DOC-CAR-01,02:15,0,0,IN_TREATMENT,High,15,0.963,Nurse pre-visit call + priority vitals check + senior review,+91 XXXXX XX385
+APT-0072,ADVANCE,PAT-1079,Swapna Reddy,Neurology,2026-09-25,09:45,DOC-NEU-01,Dr. Lakshmi Prasad,OPD-N1,DOC-NEU-01,09:45,0,0,CONFIRMED,Medium,2,0.464,Reminder + wearable sync before visit,+91 XXXXX XX098
+APT-0086,ADVANCE,PAT-1033,Rajesh Yadav,Neurology,2026-09-25,10:15,DOC-NEU-01,Dr. Lakshmi Prasad,OPD-N1,DOC-NEU-01,10:15,0,0,CONFIRMED,Low,0,0.128,Standard care pathway,+91 XXXXX XX059
+APT-0076,ADVANCE,PAT-1082,Sravani Singh,Pediatrics,2026-09-25,11:00,DOC-PED-03,Dr. Fatima Begum,OPD-P3,DOC-PED-03,11:00,0,0,CONFIRMED,Low,0,0.138,Standard care pathway,+91 XXXXX XX871
+APT-0037,ADVANCE,PAT-1040,Ramya Menon,General Medicine,2026-09-25,11:15,DOC-GEN-02,Dr. Padma Latha,OPD-G2,DOC-GEN-02,11:15,0,0,CONFIRMED,Low,0,0.171,Standard care pathway,+91 XXXXX XX223
+APT-0054,ADVANCE,PAT-1046,Suresh Menon,General Medicine,2026-09-25,12:30,DOC-GEN-01,Dr. Anil Sharma,OPD-G1,DOC-GEN-01,12:30,0,0,CONFIRMED,High,8,0.88,Nurse pre-visit call + priority vitals check + senior review,+91 XXXXX XX042
+APT-0066,ADVANCE,PAT-1081,Rajesh Patel,General Medicine,2026-09-25,12:30,DOC-GEN-02,Dr. Padma Latha,OPD-G2,DOC-GEN-02,12:30,0,0,CONFIRMED,High,5,0.611,Nurse pre-visit call + priority vitals check + senior review,+91 XXXXX XX651
+APT-0022,ADVANCE,PAT-1020,Mahesh Sharma,General Medicine,2026-09-25,14:00,DOC-GEN-03,Dr. Rohit Verma,OPD-G3,DOC-GEN-03,14:00,0,0,CONFIRMED,Medium,0,0.424,Reminder + wearable sync before visit,+91 XXXXX XX797
+APT-0088,ADVANCE,PAT-1031,Pooja Prasad,Pediatrics,2026-09-25,14:00,DOC-PED-02,Dr. Karthik Reddy,OPD-P2,DOC-PED-02,14:00,0,0,CONFIRMED,Medium,4,0.135,Reminder + wearable sync before visit,+91 XXXXX XX531
+APT-0081,ADVANCE,PAT-1037,Bhaskar Naidu,Pediatrics,2026-09-25,16:00,DOC-PED-03,Dr. Fatima Begum,OPD-P3,DOC-PED-03,16:00,0,0,CONFIRMED,Low,0,0.321,Standard care pathway,+91 XXXXX XX127
